@@ -1,4 +1,5 @@
 # cloud.google.com/go v0.45.1
+## explicit; go 1.9
 cloud.google.com/go/compute/metadata
 cloud.google.com/go/iam
 cloud.google.com/go/internal
@@ -7,6 +8,7 @@ cloud.google.com/go/internal/trace
 cloud.google.com/go/internal/version
 cloud.google.com/go/storage
 # github.com/aws/aws-sdk-go v1.24.1
+## explicit
 github.com/aws/aws-sdk-go/aws
 github.com/aws/aws-sdk-go/aws/awserr
 github.com/aws/aws-sdk-go/aws/awsutil
@@ -45,17 +47,23 @@ github.com/aws/aws-sdk-go/service/s3
 github.com/aws/aws-sdk-go/service/sts
 github.com/aws/aws-sdk-go/service/sts/stsiface
 # github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
+## explicit
 github.com/bgentry/go-netrc/netrc
 # github.com/blang/semver v3.5.1+incompatible
+## explicit
 github.com/blang/semver
 # github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d
+## explicit; go 1.12
 github.com/cpuguy83/go-md2man/v2/md2man
 # github.com/ghodss/yaml v1.0.0
+## explicit
 github.com/ghodss/yaml
 # github.com/gogo/protobuf v1.3.0
+## explicit
 github.com/gogo/protobuf/proto
 github.com/gogo/protobuf/sortkeys
 # github.com/golang/protobuf v1.3.2
+## explicit
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/protoc-gen-go/descriptor
 github.com/golang/protobuf/ptypes
@@ -63,47 +71,68 @@ github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
 # github.com/google/go-github/v29 v29.0.3
+## explicit; go 1.13
 github.com/google/go-github/v29/github
 # github.com/google/go-querystring v1.0.0
+## explicit
 github.com/google/go-querystring/query
 # github.com/google/gofuzz v1.0.0
+## explicit; go 1.12
 github.com/google/gofuzz
 # github.com/googleapis/gax-go/v2 v2.0.5
+## explicit
 github.com/googleapis/gax-go/v2
 # github.com/gorilla/context v1.1.1
+## explicit
 github.com/gorilla/context
 # github.com/gorilla/handlers v1.4.2
+## explicit
 github.com/gorilla/handlers
 # github.com/gorilla/mux v1.6.2
+## explicit
 github.com/gorilla/mux
 # github.com/hashicorp/go-cleanhttp v0.5.1
+## explicit
 github.com/hashicorp/go-cleanhttp
 # github.com/hashicorp/go-getter v1.4.1
+## explicit
 github.com/hashicorp/go-getter
 github.com/hashicorp/go-getter/helper/url
 # github.com/hashicorp/go-safetemp v1.0.0
+## explicit
 github.com/hashicorp/go-safetemp
 # github.com/hashicorp/go-version v1.1.0
+## explicit
 github.com/hashicorp/go-version
 # github.com/hashicorp/golang-lru v0.5.3
+## explicit; go 1.12
 github.com/hashicorp/golang-lru/simplelru
 # github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af
+## explicit
 github.com/jmespath/go-jmespath
 # github.com/json-iterator/go v1.1.8
+## explicit; go 1.12
 github.com/json-iterator/go
 # github.com/konsorten/go-windows-terminal-sequences v1.0.2
+## explicit
 github.com/konsorten/go-windows-terminal-sequences
 # github.com/mitchellh/go-homedir v1.1.0
+## explicit
 github.com/mitchellh/go-homedir
 # github.com/mitchellh/go-testing-interface v1.0.0
+## explicit
 github.com/mitchellh/go-testing-interface
 # github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+## explicit
 github.com/modern-go/concurrent
 # github.com/modern-go/reflect2 v1.0.1
+## explicit
 github.com/modern-go/reflect2
 # github.com/pkg/errors v0.8.1
+## explicit
 github.com/pkg/errors
 # github.com/rancher/steve v0.0.0-20200220230643-5b94b82bc6c8
+## explicit; go 1.13
 github.com/rancher/steve/pkg/schemaserver/builtin
 github.com/rancher/steve/pkg/schemaserver/handlers
 github.com/rancher/steve/pkg/schemaserver/httperror
@@ -116,6 +145,7 @@ github.com/rancher/steve/pkg/schemaserver/types
 github.com/rancher/steve/pkg/schemaserver/urlbuilder
 github.com/rancher/steve/pkg/schemaserver/writer
 # github.com/rancher/wrangler v0.4.2-0.20200215064225-8abf292acf7b
+## explicit; go 1.12
 github.com/rancher/wrangler/pkg/data
 github.com/rancher/wrangler/pkg/data/convert
 github.com/rancher/wrangler/pkg/merr
@@ -127,19 +157,25 @@ github.com/rancher/wrangler/pkg/signals
 github.com/rancher/wrangler/pkg/slice
 github.com/rancher/wrangler/pkg/ticker
 # github.com/russross/blackfriday/v2 v2.0.1
+## explicit
 github.com/russross/blackfriday/v2
 # github.com/shurcooL/sanitized_anchor_name v1.0.0
+## explicit
 github.com/shurcooL/sanitized_anchor_name
 # github.com/sirupsen/logrus v1.4.2
+## explicit
 github.com/sirupsen/logrus
 # github.com/ulikunitz/xz v0.5.5
+## explicit
 github.com/ulikunitz/xz
 github.com/ulikunitz/xz/internal/hash
 github.com/ulikunitz/xz/internal/xlog
 github.com/ulikunitz/xz/lzma
 # github.com/urfave/cli v1.22.2
+## explicit; go 1.11
 github.com/urfave/cli
 # go.opencensus.io v0.22.0
+## explicit
 go.opencensus.io
 go.opencensus.io/internal
 go.opencensus.io/internal/tagencoding
@@ -157,6 +193,7 @@ go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
 # golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586
+## explicit
 golang.org/x/crypto/cast5
 golang.org/x/crypto/openpgp
 golang.org/x/crypto/openpgp/armor
@@ -165,6 +202,7 @@ golang.org/x/crypto/openpgp/errors
 golang.org/x/crypto/openpgp/packet
 golang.org/x/crypto/openpgp/s2k
 # golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
+## explicit; go 1.11
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
@@ -174,19 +212,23 @@ golang.org/x/net/idna
 golang.org/x/net/internal/timeseries
 golang.org/x/net/trace
 # golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
+## explicit; go 1.11
 golang.org/x/oauth2
 golang.org/x/oauth2/google
 golang.org/x/oauth2/internal
 golang.org/x/oauth2/jws
 golang.org/x/oauth2/jwt
-# golang.org/x/sys v0.0.0-20191010194322-b09406accb47
+# golang.org/x/sys v0.16.0
+## explicit; go 1.18
 golang.org/x/sys/unix
 # golang.org/x/text v0.3.2
+## explicit
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # google.golang.org/api v0.9.0
+## explicit; go 1.9
 google.golang.org/api/gensupport
 google.golang.org/api/googleapi
 google.golang.org/api/googleapi/internal/uritemplates
@@ -198,6 +240,7 @@ google.golang.org/api/storage/v1
 google.golang.org/api/transport/http
 google.golang.org/api/transport/http/internal/propagation
 # google.golang.org/appengine v1.6.1
+## explicit
 google.golang.org/appengine
 google.golang.org/appengine/internal
 google.golang.org/appengine/internal/app_identity
@@ -209,12 +252,14 @@ google.golang.org/appengine/internal/remote_api
 google.golang.org/appengine/internal/urlfetch
 google.golang.org/appengine/urlfetch
 # google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
+## explicit
 google.golang.org/genproto/googleapis/api/annotations
 google.golang.org/genproto/googleapis/iam/v1
 google.golang.org/genproto/googleapis/rpc/code
 google.golang.org/genproto/googleapis/rpc/status
 google.golang.org/genproto/googleapis/type/expr
 # google.golang.org/grpc v1.24.0
+## explicit; go 1.11
 google.golang.org/grpc
 google.golang.org/grpc/balancer
 google.golang.org/grpc/balancer/base
@@ -249,12 +294,16 @@ google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
 # gopkg.in/inf.v0 v0.9.1
+## explicit
 gopkg.in/inf.v0
 # gopkg.in/yaml.v2 v2.2.4
+## explicit
 gopkg.in/yaml.v2
 # k8s.io/api v0.17.2
+## explicit; go 1.12
 k8s.io/api/authentication/v1
 # k8s.io/apimachinery v0.17.2
+## explicit; go 1.12
 k8s.io/apimachinery/pkg/api/meta
 k8s.io/apimachinery/pkg/api/resource
 k8s.io/apimachinery/pkg/api/validation/path
@@ -290,10 +339,13 @@ k8s.io/apimachinery/pkg/util/yaml
 k8s.io/apimachinery/pkg/watch
 k8s.io/apimachinery/third_party/forked/golang/reflect
 # k8s.io/apiserver v0.17.2
+## explicit; go 1.12
 k8s.io/apiserver/pkg/apis/audit
 k8s.io/apiserver/pkg/authentication/user
 k8s.io/apiserver/pkg/endpoints/request
 # k8s.io/klog v1.0.0
+## explicit; go 1.12
 k8s.io/klog
 # sigs.k8s.io/yaml v1.1.0
+## explicit
 sigs.k8s.io/yaml
